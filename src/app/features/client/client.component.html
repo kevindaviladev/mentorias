@@ -1,0 +1,10 @@
+<div class="card" [formGroup]="formPadre">
+  <h1>Clientes</h1>
+  <pre><code>{{formPadre.value | json}}</code></pre>
+
+  <form formGroupName="client">
+    <app-email></app-email>
+  </form>
+
+  <button (click)="send()">Enviar factura</button>
+</div>
