@@ -1,0 +1,5 @@
+<!-- <ng-container *ngIf="form.get('email')"> -->
+  <input type="text" placeholder="Ingrese su email" formControlName="email">
+<p *ngIf="form?.get('email')?.errors && form?.get('email')?.touched" style="color: red;">Email invalido</p>
+
+<!-- </ng-container> -->
