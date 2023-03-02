@@ -4,3 +4,5 @@ export interface User {
   alias: string;
   sayHello: () => void;
 }
+
+const meme = 'algo';
