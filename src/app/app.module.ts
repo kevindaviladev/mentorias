@@ -21,7 +21,6 @@ import { FormGroupDirective, ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-
   ],
   providers: [],
   bootstrap: [AppComponent]
